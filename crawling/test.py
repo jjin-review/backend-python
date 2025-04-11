@@ -21,7 +21,7 @@ options.add_argument("disable-infobars")
 options.add_argument("--disable-extensions")
 options.add_argument('--no-sandbox') 
 
-chrome_driver_path = r'<경로입력>'
+chrome_driver_path = r'chromedriver.exe'
 service = Service(executable_path=chrome_driver_path)
 
 driver = webdriver.Chrome(service = service, options=options)
