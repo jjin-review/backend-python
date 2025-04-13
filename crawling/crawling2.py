@@ -75,3 +75,4 @@ driver.quit()
 print(f"\n총 {len(reviews)}개의 리뷰를 수집.\n")
 for idx, review in enumerate(reviews, 1):
     print(f"{idx}. {review}")
+###
